@@ -43,18 +43,6 @@ Funciones principales: `registrar`, `existeUsuario`, `iniciarSesion` y `buscarUs
 - Android Gradle Plugin 9.4.1, Java 11
 - `minSdk` 24 (Android 7.0), `targetSdk` 37
 
-## Cómo ejecutarla
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/andres25e0/EP2DAM.git
-   ```
-2. Ábrelo en Android Studio (**File > Open** y elige la carpeta `EP2DAM`).
-3. Espera a que termine la sincronización de Gradle.
-4. Ejecuta la app en un emulador o en un teléfono con Android 7.0 o superior.
-
-Para revisar los usuarios guardados: con la app abierta, ve a **View > Tool Windows > App Inspection > Database Inspector** y abre `tustudio.db`.
-
 ## Estructura del proyecto
 
 ```
@@ -70,11 +58,3 @@ Evidencia/
 ├── descripciones.md          # Descripción del diseño, la base de datos y las pruebas
 └── capturas/                 # Capturas de las pruebas de registro e inicio de sesión
 ```
-
-## Pruebas
-
-En [`Evidencia/capturas`](Evidencia/capturas) están las pruebas de la app: registro con campos vacíos, registro exitoso, inicio de sesión con contraseña incorrecta e inicio de sesión correcto que lleva al perfil. La explicación de cada captura está en [`Evidencia/descripciones.md`](Evidencia/descripciones.md).
-
-## Nota
-
-Es un proyecto escolar: las contraseñas se guardan tal cual en la base de datos local, sin cifrar.
