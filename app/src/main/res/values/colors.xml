@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="morado">#FF6A1B9A</color>
+    <color name="morado_oscuro">#FF4A148C</color>
+    <color name="morado_claro">#FFF3E5F5</color>
+    <color name="amarillo">#FFFFC107</color>
+    <color name="azul">#FF1E88E5</color>
+    <color name="rojo">#FFE53935</color>
+    <color name="verde">#FF43A047</color>
+    <color name="naranja">#FFFB8C00</color>
+    <color name="rosa">#FFD81B60</color>
+    <color name="gris">#FF616161</color>
+    <color name="negro">#FF000000</color>
+    <color name="blanco">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="&lt; volver"
+            android:textColor="@color/blanco"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Mascota"
+            android:src="@drawable/mascota" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Iniciar sesión"
+            android:textColor="@color/blanco"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/tarjeta"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Nombre de usuario" />
+
+            <EditText
+                android:id="@+id/etUsuario"
+                style="@style/Campo"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Contraseña" />
+
+            <EditText
+                android:id="@+id/etContrasena"
+                style="@style/Campo"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnIniciar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="8dp"
+                android:text="Iniciar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCrearCuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:text="¿No tienes cuenta? Crear cuenta"
+                android:textColor="@color/morado"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtVolver"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="&lt; volver"
+                android:textColor="@color/blanco"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtIrLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Iniciar sesión"
+                android:textColor="@color/blanco"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Crea tu cuenta"
+            android:textColor="@color/blanco"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/tarjeta"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Nombre de usuario" />
+
+            <EditText
+                android:id="@+id/etUsuario"
+                style="@style/Campo"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Contraseña" />
+
+            <EditText
+                android:id="@+id/etContrasena"
+                style="@style/Campo"
+                android:inputType="textPassword" />
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Nivel académico" />
+
+            <EditText
+                android:id="@+id/etNivel"
+                style="@style/Campo"
+                android:hint="Ej. Preparatoria"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Correo electrónico" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                style="@style/Campo"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                style="@style/Etiqueta"
+                android:text="Apodo" />
+
+            <EditText
+                android:id="@+id/etApodo"
+                style="@style/Campo"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/Etiqueta"
+                android:layout_marginTop="8dp"
+                android:text="Selecciona foto de perfil" />
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:contentDescription="Foto elegida"
+                android:src="@drawable/avatar1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgFoto1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Foto 1"
+                    android:src="@drawable/avatar1" />
+
+                <ImageView
+                    android:id="@+id/imgFoto2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Foto 2"
+                    android:src="@drawable/avatar2" />
+
+                <ImageView
+                    android:id="@+id/imgFoto3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Foto 3"
+                    android:src="@drawable/avatar3" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCrear"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/amarillo"
+                android:text="Crear"
+                android:textColor="@color/negro"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

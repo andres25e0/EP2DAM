@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.EP2_PopocaAndres_ArenalJose_PolucenoKarla" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/morado</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.EP2_PopocaAndres_ArenalJose_PolucenoKarla" parent="Base.Theme.EP2_PopocaAndres_ArenalJose_PolucenoKarla" />
+</resources>

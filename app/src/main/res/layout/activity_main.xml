@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Mascota"
+            android:src="@drawable/mascota" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TuStudio"
+            android:textColor="@color/blanco"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu app para estudiar"
+            android:textColor="@color/blanco"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="Materias"
+            android:textColor="@color/blanco"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/Materia"
+                android:backgroundTint="@color/azul"
+                android:text="Matemáticas" />
+
+            <TextView
+                style="@style/Materia"
+                android:backgroundTint="@color/rojo"
+                android:text="Física" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/Materia"
+                android:backgroundTint="@color/verde"
+                android:text="Ciencias" />
+
+            <TextView
+                style="@style/Materia"
+                android:backgroundTint="@color/naranja"
+                android:text="Inglés" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Materia"
+            android:backgroundTint="@color/rosa"
+            android:text="Química" />
+
+        <Button
+            android:id="@+id/btnEmpezar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/amarillo"
+            android:text="Comienza a estudiar YA!"
+            android:textColor="@color/negro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
